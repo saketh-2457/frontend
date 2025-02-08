@@ -6,9 +6,9 @@
     <body>
         <div id="container">
             <div class=""input_div">
-                <input placeholder="Enter X" id="num1" />
-                <input placeholder="Enter Y" id="num2" />
-                <input placeholder="Result" id="res" />
+                <input placeholder="Enter X " id="num1" />
+                <input placeholder="Enter Y " id="num2" />
+                <input placeholder="Result" id="result" />
             </div>
         </div>
 
@@ -24,27 +24,27 @@
                 x = parseInt(document.getElementById("num1").value);
                 y = parseInt(document.getElementById("num2").value);
                 result = x + y;
-                document.getElementById("res").value = result;
+                document.getElementById("result").value = result;
             }
             function sub() {
                 x = parseInt(document.getElementById("num1").value);
                 y = parseInt(document.getElementById("num2").value);
                 result = x - y;
-                document.getElementById("res").value = result;
+                document.getElementById("result").value = result;
             }
 
             function mul() {
                 x = parseInt(document.getElementById("num1").value);
                 y = parseInt(document.getElementById("num2").value);
                 result = x * y;
-                document.getElementById("res").value = result;
+                document.getElementById("result").value = result;
             }
 
             function div() {
                 x = parseInt(document.getElementById("num1").value);
                 y = parseInt(document.getElementById("num2").value);
                 result = x / y;
-                document.getElementById("res").value = result;
+                document.getElementById("result").value = result;
             }
         </script>
     </body>
